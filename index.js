@@ -3,6 +3,7 @@ const helmet = require("helmet");
 const cors = require("cors");
 
 require("./src/config/dotenv.config.js");
+require("./src/config/db.config.js");
 const errorHandler = require("./src/middlewares/errorHandler");
 const corsOptions = require("./src/config/cors.config");
 const send = require("./src/helpers/responseHandler");
